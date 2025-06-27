@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConversorDeMoeda</string>
+    <string name="conversor_de_moedas">Conversor de moedas</string>
+    <string name="digite_o_valor_e_escolhas">Digite o valor e escolhas as moedas de conversão</string>
+    <string name="imagem_da_bandeira_do_pais_relacionando_a_moeda">Imagem da bandeira do pais relacionando a moeda</string>
+    <string name="cones_de_setas_trocando_de_posi_o">Ícones de setas trocando de posição</string>
+    <string name="divider">Divider</string>
+</resources>
