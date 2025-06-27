@@ -37,15 +37,15 @@ android {
 
 dependencies {
 
-//    // Dependências do Ktor
+    // Dependências do Ktor
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.android)
-//    implementation(libs.ktor.client.content.negotiation) // Note o nome do alias sem o "client-"
-//    implementation(libs.ktor.serialization.kotlinx.json)
+    implementation(libs.ktor.client.content.negotiation) // Note o nome do alias sem o "client-"
+    implementation(libs.ktor.serialization.kotlinx.json)
     implementation(libs.ktor.client.logging)
-//
-//    // Dependência do Kotlinx Serialization
-//   implementation(libs.kotlinx.serialization.json)
+
+    // Dependência do Kotlinx Serialization
+   implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
