@@ -60,6 +60,11 @@ dependencies {
   // Dependência do Kotlinx Serialization
   implementation(libs.kotlinx.serialization.json)
 
+  // Dependências do Lifecycle
+  implementation(libs.lifecycle.viewmodel)
+  implementation(libs.lifecycle.runtime)
+
+
   testImplementation(libs.junit)
   androidTestImplementation(libs.androidx.junit)
   androidTestImplementation(libs.androidx.espresso.core)
