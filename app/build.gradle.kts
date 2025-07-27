@@ -21,6 +21,7 @@ android {
 
   buildFeatures {
     buildConfig = true  // Adicione esta linha
+    viewBinding = true
   }
 
   buildTypes {
@@ -41,6 +42,7 @@ android {
   kotlinOptions {
     jvmTarget = "11"
   }
+
 }
 
 dependencies {
@@ -63,6 +65,10 @@ dependencies {
   // Dependências do Lifecycle
   implementation(libs.lifecycle.viewmodel)
   implementation(libs.lifecycle.runtime)
+
+  //Dependências do Coil
+  implementation(libs.coil)
+  implementation(libs.coil.svg)
 
 
   testImplementation(libs.junit)
