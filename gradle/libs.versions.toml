@@ -32,6 +32,7 @@ ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref =
 lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version = "2.9.2" }
 lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel", version.ref = "lifecycle" }
 coil = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+coil-network-okhttp = { group = "io.coil-kt", name = "coil-network-okhttp", version.ref = "coil" }
 coil-svg = { group = "io.coil-kt", name = "coil-svg", version.ref = "coil" }
 
 [plugins]
