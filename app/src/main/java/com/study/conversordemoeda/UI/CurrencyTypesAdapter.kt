@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
-import coil.decode.SvgDecoder
-import coil.load
+import coil3.load
+import coil3.svg.SvgDecoder
 import com.study.conversordemoeda.databinding.ItemCurrencyTypeBinding
 import com.study.conversordemoeda.network.model.CurrencyType
 
